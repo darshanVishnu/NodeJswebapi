@@ -28,11 +28,13 @@ Folder Structure Conventions
           └── header.ejs
           
 
-The node.js example app teaches the very basics of how to work with Contentful:
+The node.js example app teaches the very basics of how to work with express:
 
-consume content from the Contentful Delivery and Preview APIs
-model content
-edit content through the Contentful web app
+mvc pattern
+promises 
+ejs templating
+routing 
+
 
 
 Common setup
