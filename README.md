@@ -8,16 +8,16 @@ Folder Structure Conventions
 ### A typical top-level directory layout
 
     .
-    ├── sever.js -- used                  
+    ├── sever.js -- used  as the entry point to app              
     ├── controller 
-        myappcontroller.js
+        myappcontroller.js  
            
     ├── data                  
         ├── data.json
     ├──routes
-        ├── myapprouter.js
-    ├──test
-    ├──util
+        ├── myapprouter.js  
+    ├──test --unit testing files will be kept
+    ├──util --conts wiil be kept
     ├──views                 
           pages
           ├── about.ejs
