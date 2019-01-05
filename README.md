@@ -30,12 +30,10 @@ Folder Structure Conventions
 
 The node.js example app teaches the very basics of how to work with express:
 
-mvc pattern
-promises 
-ejs templating
-routing 
-
-
+mvc pattern,
+promises,
+ejs templating and
+routing
 
 Common setup
 Clone the repo and install the dependencies.
