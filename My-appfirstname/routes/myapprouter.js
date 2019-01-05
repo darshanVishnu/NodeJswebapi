@@ -8,7 +8,7 @@ var myappcontroller =require('../controller/myappcontroller');
 router.get('/ms/om/api/hello',myappcontroller.hello);
 router.get('/ms/om/api/hello',myappcontroller.helloapiworld);
 router.get('/', myappcontroller.sayHelloindexpage);
-router.get('/', myappcontroller.sayHelloaboutpage);
+router.get('/about', myappcontroller.sayHelloaboutpage);
 router.get('/ms/om/api/datajson', myappcontroller.datajson);
 /*
 router.get('/ms/om/api/hello',function(req,res){
