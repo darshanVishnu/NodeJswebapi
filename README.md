@@ -45,7 +45,8 @@ Steps for read-only access
 To start the express server, run the following
 
 npm run start
-Open http://localhost:8000 and take a look around.
+Open http://localhost:8080 and take a look around.
+
     
         .
 
