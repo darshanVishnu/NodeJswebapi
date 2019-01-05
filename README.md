@@ -16,7 +16,7 @@ Folder Structure Conventions
         ├── data.json
     ├──routes
         ├── myapprouter.js  
-    ├──test --unit testing files will be kept
+    ├──test  Test files (alternatively `spec` or `tests`)
     ├──util --conts wiil be kept
     ├──views                 
           pages
@@ -26,6 +26,26 @@ Folder Structure Conventions
           ├── footer.ejs
           └── head.ejs
           └── header.ejs
+          
+
+The node.js example app teaches the very basics of how to work with Contentful:
+
+consume content from the Contentful Delivery and Preview APIs
+model content
+edit content through the Contentful web app
+
+
+Common setup
+Clone the repo and install the dependencies.
+
+git clone https://github.com/darshanVishnu/NodeJswebapi/
+cd NodeJswebapi
+npm install
+Steps for read-only access
+To start the express server, run the following
+
+npm run start
+Open http://localhost:8000 and take a look around.
     
         .
 
