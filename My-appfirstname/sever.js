@@ -17,6 +17,13 @@ app.use(function(req, res, next) {
     next(err);
   });
   
+app.use(function(error,req, res, next) {
+ res.json({
+ error:{
+ message :error.message
+ }
+ });
+  });
 app.listen(8080);
 console.log('the server is started at port 8080');
 module.exports = app;
