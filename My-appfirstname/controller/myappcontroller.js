@@ -30,7 +30,8 @@ module.exports = {
     //implementation of promise to reader large data
     datajson: function (req ,res){
      callMyPromise().then(function(result) {
-          res.json(JSON.stringify(result));
+         // res.json(JSON.stringify(result));
+          res.send(result);
  });
     }
   };
