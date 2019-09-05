@@ -18,7 +18,13 @@
     "lastName": "Wright",
     "officeLocation": "Frederick, MD",
     "phoneNumber": "(812) 522-7104"
-}, {
+},{
+"firstName": "Jessica",
+"lastName": "Wright",
+"officeLocation": "Frederick, MD",
+"phoneNumber": "(812) 522-7104"
+}
+, {
     "firstName": "Juan",
     "lastName": "Stone",
     "officeLocation": "Redwood City, CA",
